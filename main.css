@@ -52,6 +52,7 @@ body {
     line-height: 23px;
     text-transform: uppercase;
     color: #2F3132;
+    text-align: center;
 }
 
 .text-container {
@@ -153,14 +154,14 @@ body {
 }
 
 .carousel-indicators {
-    position: relative;
+    /* position: relative; */
     margin: 0;
 }
 
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
-    width: 30x;
+    width: 30px;
     height: 30px;
     border-radius: 50%;
     background-image: url(./res/wood-texture.png);
@@ -207,4 +208,173 @@ button#marble {
 
 .carousel-control-next-icon {
     background-image: url(./res/arrow-right.svg);
+}
+
+/* SIM-SECTION */
+
+.sim-section {
+    background: #EDEDED;
+    height: 718px;
+    background-image: url(./res/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.sim-section .sim-heading .heading {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.sim-section .text-container {
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.guide-list {
+    margin-top: 36px;
+    margin-left: 54px;
+    margin-right: 54px;
+}
+
+.guide-list li {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.guide-list li:first-letter {
+    text-transform: capitalize;
+}
+
+/* SETTINGS-SECTION */
+
+.settings-section {
+    background: #EDEDED;
+}
+
+.settings-heading {
+    padding-top: 70px;
+    margin-bottom: 20px;
+}
+
+.settings-section .text-container {
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+/* SETTINGS-CAROUSEL */
+
+.settings-section .carousel {
+    margin: 35px 23px 0px 23px;
+}
+
+.settings-section .carousel-item {
+    width: 330px;
+    height: 481px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.settings-section .carousel .carousel-indicators [data-bs-target] {
+    height: 15px;
+    width: 15px;
+    background-image: none;
+    background: #C4C4C4;
+    border: none;
+}
+
+.settings-section .carousel .carousel-indicators [aria-current="true"] {
+    background: #2F3132;
+}
+
+.setsec-empty {
+    background: #EDEDED;
+    height: 60px;
+}
+
+/* ICONS-SECTION */
+
+.icons-section {
+    padding-top: 20px;
+    height: 155px;
+    background: #C4C4C4;
+}
+
+.ad-icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 22px;
+    margin-left: 29px;
+    margin-right: 29px;
+    margin-bottom: 20px;
+}
+
+.icons-section .text-container {
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.icons-section p {
+    color: white;
+}
+
+/* COMFORT-SECTION */
+
+.comfort-section {
+    padding-top: 70px;
+}
+
+.comfort-heading {
+    margin-left: 34px;
+    margin-right: 34px;
+    margin-bottom: 20px;
+}
+
+.comfort-section .text {
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.comfort-section .image-holder {
+    margin-top: 20px;
+}
+
+/* FAST-SECTION */
+
+.fast-section {
+    padding-top: 70px;
+}
+
+.fast-heading {
+    margin-left: 34px;
+    margin-right: 34px;
+    margin-bottom: 20px;
+}
+
+.fast-section .text {
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.fast-section .image-holder {
+    margin-top: 20px;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #2F3132;
+    height: 75px;
+    padding: 22px 145px 37px 145px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 7px;
+    color: #C7C8C8;
 }
